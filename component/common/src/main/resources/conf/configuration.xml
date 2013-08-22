@@ -44,7 +44,7 @@
             <description>Filter used to notify caches</description>
             <property name="gatein.jcr.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/cluster/cache-config.xml" />
             <property name="gatein.jcr.cache.config.workspace.portal-system" value="file:${gatein.conf.dir}/jcr/infinispan/cluster/config_portal-system.xml" />
-            <property name="gatein.jcr.lock.cache.config" value="file:${gatein.conf.dir}/jcr/infinspan/cluster/lock-config.xml" />
+            <property name="gatein.jcr.lock.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/cluster/lock-config.xml" />
             <property name="gatein.jcr.index.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/cluster/indexer-config.xml" />
             <property name="exo.cache.config.template" value="file:${gatein.conf.dir}/cache/infinispan/cluster/cache-config.xml" />
             <property name="use-distributed-cache" value="true" />
