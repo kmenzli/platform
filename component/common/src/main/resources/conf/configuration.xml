@@ -37,7 +37,6 @@
             <property name="gatein.jcr.lock.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/local/lock-config.xml" />
             <property name="gatein.jcr.index.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/local/indexer-config.xml" />
             <property name="exo.cache.config.template" value="file:${gatein.conf.dir}/cache/infinispan/local/cache-config.xml" />
-            <property name="use-distributed-cache" value="false" />
          </properties-param>
          <properties-param profiles="cluster,cluster-index-local">
             <name>properties</name>
@@ -47,7 +46,6 @@
             <property name="gatein.jcr.lock.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/cluster/lock-config.xml" />
             <property name="gatein.jcr.index.cache.config" value="file:${gatein.conf.dir}/jcr/infinispan/cluster/indexer-config.xml" />
             <property name="exo.cache.config.template" value="file:${gatein.conf.dir}/cache/infinispan/cluster/cache-config.xml" />
-            <property name="use-distributed-cache" value="true" />
          </properties-param>
       </init-params>
    </component>
