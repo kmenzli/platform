@@ -22,23 +22,6 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd http://www.exoplatform.org/xml/ns/kernel_1_2.xsd"
   xmlns="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd">
-   <component profiles="cluster,cluster-index-local">
-      <type>org.exoplatform.services.ispn.DistributedCacheManager</type>
-      <init-params>
-         <value-param>
-            <name>infinispan-configuration</name>
-            <value>jar:/conf/distributed-cache-configuration.xml</value>
-         </value-param>
-         <properties-param>
-            <name>parameters</name>
-            <description>The parameters of the configuration</description>
-            <property name="configurationFile" value="${gatein.jcr.jgroups.config}"></property>
-            <property name="invalidationThreshold" value="-1"></property>
-            <property name="numOwners" value="2"></property>
-            <property name="numVirtualNodes" value="1"></property>
-         </properties-param>
-      </init-params>
-   </component>
    <component>
       <key>org.infinispan.transaction.lookup.TransactionManagerLookup</key>
       <type>org.exoplatform.services.transaction.infinispan.JBossStandaloneJTAManagerLookup</type>
