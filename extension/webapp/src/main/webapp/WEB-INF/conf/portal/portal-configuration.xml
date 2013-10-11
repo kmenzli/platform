@@ -369,15 +369,7 @@
                         <field name="replicated"><boolean>true</boolean></field>
                     </object>
                 </object-param>
-            </init-params>
-        </component-plugin>
-        <!-- NavigationService configuration -->
-        <component-plugin>
-            <name>addExoCacheConfig</name>
-            <set-method>addExoCacheConfig</set-method>
-            <type>org.exoplatform.services.cache.ExoCacheConfigPlugin</type>
-            <description>add Exo Cache Config</description>
-            <init-params>
+                <!-- NavigationService configuration -->
                 <object-param>
                     <name>cache.config.NavigationService</name>
                     <description>The JBoss Cache configuration for the navigation service</description>
@@ -399,15 +391,7 @@
                         <field name="replicated"><boolean>true</boolean></field>
                     </object>
                 </object-param>
-            </init-params>
-        </component-plugin>
-        <!-- DescriptionService configuration -->
-        <component-plugin>
-            <name>addExoCacheConfig</name>
-            <set-method>addExoCacheConfig</set-method>
-            <type>org.exoplatform.services.cache.ExoCacheConfigPlugin</type>
-            <description>add Exo Cache Config</description>
-            <init-params>
+                <!-- DescriptionService configuration -->
                 <object-param>
                     <name>cache.config.DescriptionService</name>
                     <description>The JBoss Cache configuration for the description service</description>
@@ -425,20 +409,11 @@
                         <field name="name"><string>DescriptionService</string></field>
                         <field name="strategy"><string>LIRS</string></field>
                         <field name="maxEntries"><int>${gatein.cache.description.maxnodes:5000}</int></field>
-                        <field name="lifespan"><long>>${gatein.cache.description.expiration:600000}</long></field>
+                        <field name="lifespan"><long>${gatein.cache.description.expiration:600000}</long></field>
                         <field name="replicated"><boolean>true</boolean></field>
                     </object>
                 </object-param>
-            </init-params>
-        </component-plugin>
-
-        <!-- PageService configuration -->
-        <component-plugin>
-            <name>addExoCacheConfig</name>
-            <set-method>addExoCacheConfig</set-method>
-            <type>org.exoplatform.services.cache.ExoCacheConfigPlugin</type>
-            <description>add Exo Cache Config</description>
-            <init-params>
+                <!-- PageService configuration -->
                 <object-param>
                     <name>cache.config.PageService</name>
                     <description>The JBoss Cache configuration for the page service</description>
