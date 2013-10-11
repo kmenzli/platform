@@ -211,7 +211,7 @@
          <description>add Exo Cache Creator</description>
          <init-params>
             <object-param>
-               <name>GENERIC</name>
+               <name>Generic-insp-cacheCreator</name>
                <description>The generic cache creator</description>
                <object type="org.exoplatform.services.cache.impl.infinispan.generic.GenericExoCacheCreator">
                   <field name="implementations">
@@ -230,7 +230,7 @@
                         </value>
                      </collection>
                   </field>
-                  <field name="defaultStrategy"><string>LRU</string></field>
+                  <field name="defaultStrategy"><string>LIRS</string></field>
                   <field name="defaultMaxIdle"><long>-1</long></field>
                   <field name="defaultWakeUpInterval"><long>500</long></field>
                </object>
