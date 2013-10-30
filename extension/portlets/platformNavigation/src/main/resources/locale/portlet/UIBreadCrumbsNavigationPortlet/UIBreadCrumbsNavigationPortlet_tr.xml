@@ -3,6 +3,17 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>Avatarı Değiştir</ChangePicture>
+        <siteExplorer>İçerik Gezgini</siteExplorer>
+        <wcmAdmin>İçerik Yönetimi</wcmAdmin>
+        <search>Arama</search>
+        <newStaff>Kullanıcı Ekle</newStaff>
+        <management>Kullanıcıları ve Grupları Yönet</management>
+        <pageManagement>Sayfaları Yönet</pageManagement>
+        <portalnavigation>Site Yönetimi</portalnavigation>
+        <groupnavigation>Grub Gezinti</groupnavigation>
+        <branding>Marka</branding>
+        <servicesManagement>Yönetim</servicesManagement>
+        <monitoring>İzleme</monitoring>
     </label>
 </UIBreadCrumbsNavigationPortlet>
  <UIBreadCrumbPopupAvatarUploader>

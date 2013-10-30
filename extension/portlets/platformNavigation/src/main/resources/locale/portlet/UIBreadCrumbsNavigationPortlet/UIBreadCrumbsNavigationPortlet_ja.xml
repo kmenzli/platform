@@ -3,6 +3,17 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>アバターの変更</ChangePicture>
+        <siteExplorer>コンテンツ エクスプ ローラー</siteExplorer>
+        <wcmAdmin>コンテンツ管理</wcmAdmin>
+        <search>検索</search>
+        <newStaff>ユーザーを追加</newStaff>
+        <management>ユーザーとグループを管理</management>
+        <pageManagement>ページを管理</pageManagement>
+        <portalnavigation>サイト管理</portalnavigation>
+        <groupnavigation>グループナビゲーション</groupnavigation>
+        <branding>ブランディング</branding>
+        <servicesManagement>管理</servicesManagement>
+        <monitoring>モニタリング</monitoring>
     </label>
 </UIBreadCrumbsNavigationPortlet>
  <UIBreadCrumbPopupAvatarUploader>

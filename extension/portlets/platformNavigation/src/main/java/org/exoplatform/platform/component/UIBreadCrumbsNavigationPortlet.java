@@ -186,7 +186,7 @@ public class UIBreadCrumbsNavigationPortlet extends UIPortletApplication {
 
     public static String getEncodedResolvedLabel() throws Exception {
         UserNode node = Util.getUIPortal().getSelectedUserNode();
-        return node.getResolvedLabel();
+        return node.getName();
     }
 
     public static UserPortal getUserPortal() {

@@ -3,6 +3,17 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>Changer la Photo</ChangePicture>
+        <siteExplorer>Explorateur de Contenu</siteExplorer>
+        <wcmAdmin>Administration de Contenu</wcmAdmin>
+        <search>Recherche</search>
+        <newStaff>Ajout d'Utilisateur</newStaff>
+        <management>Utilisateurs et Groupes</management>
+        <pageManagement>Parcourir les Pages</pageManagement>
+        <portalnavigation>Gestion des Sites</portalnavigation>
+        <groupnavigation>Navigation de Groupe</groupnavigation>
+        <branding>Thème</branding>
+        <servicesManagement>Gestion</servicesManagement>
+        <monitoring>Surveillance</monitoring>
     </label>
 </UIBreadCrumbsNavigationPortlet>
    <UIBreadCrumbPopupAvatarUploader>

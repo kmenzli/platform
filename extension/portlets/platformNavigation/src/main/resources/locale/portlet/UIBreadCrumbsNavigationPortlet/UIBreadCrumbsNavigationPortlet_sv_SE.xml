@@ -3,6 +3,17 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>Ändra Avatar</ChangePicture>
+        <siteExplorer>Utforskare för innehåll</siteExplorer>
+        <wcmAdmin>Innehållsadministration</wcmAdmin>
+        <search>Sök</search>
+        <newStaff>Lägg till användare</newStaff>
+        <management>Hantera användare och grupper</management>
+        <pageManagement>Hantera sidor</pageManagement>
+        <portalnavigation>Hantering av webbplatser</portalnavigation>
+        <groupnavigation>Navigering för gruppen</groupnavigation>
+        <branding>Branding</branding>
+        <servicesManagement>Management</servicesManagement>
+        <monitoring>Övervakning</monitoring>
     </label>
 </UIBreadCrumbsNavigationPortlet>
  <UIBreadCrumbPopupAvatarUploader>

@@ -3,7 +3,19 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>Avatar ändern</ChangePicture>
+        <siteExplorer>مُـستكشف المحتوى</siteExplorer>
+        <wcmAdmin>إدارة المحتوى</wcmAdmin>
+        <search></search>
+        <newStaff></newStaff>
+        <management></management>
+        <pageManagement></pageManagement>
+        <portalnavigation></portalnavigation>
+        <groupnavigation></groupnavigation>
+        <branding></branding>
+        <servicesManagement></servicesManagement>
+        <monitoring></monitoring>
     </label>
+
 </UIBreadCrumbsNavigationPortlet>
  <UIBreadCrumbPopupAvatarUploader>
       <title>

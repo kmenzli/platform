@@ -3,6 +3,17 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>Thay đổi Ảnh Đại diện</ChangePicture>
+        <siteExplorer>Trình duyệt Nội dung</siteExplorer>
+        <wcmAdmin>Quản trị Nội dung</wcmAdmin>
+        <search>Tìm kiếm</search>
+        <newStaff>Thêm Người dùng</newStaff>
+        <management>Quản lý Nhóm và Người dùng</management>
+        <pageManagement>Quản lý Trang</pageManagement>
+        <portalnavigation>Quản lý Site</portalnavigation>
+        <groupnavigation>Điều hướng Nhóm</groupnavigation>
+        <branding>Thương hiệu</branding>
+        <servicesManagement>Quản lý</servicesManagement>
+        <monitoring>Giám sát</monitoring>
     </label>
 </UIBreadCrumbsNavigationPortlet>
  <UIBreadCrumbPopupAvatarUploader>

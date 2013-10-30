@@ -3,6 +3,17 @@
 <UIBreadCrumbsNavigationPortlet>
     <label>
         <ChangePicture>Alterar Avatar</ChangePicture>
+        <siteExplorer>Gerenciador de conteúdo</siteExplorer>
+        <wcmAdmin>Administração de conteúdo</wcmAdmin>
+        <search>Buscar</search>
+        <newStaff>Adicionar Usuário</newStaff>
+        <management>Gerenciar Usuários e Grupos</management>
+        <pageManagement>Gerenciar Páginas</pageManagement>
+        <portalnavigation>Gerenciamento de Sites</portalnavigation>
+        <groupnavigation>Navegação do Grupo</groupnavigation>
+        <branding>Marca</branding>
+        <servicesManagement>Gerenciamento</servicesManagement>
+        <monitoring>Monitoramento</monitoring>
     </label>
 </UIBreadCrumbsNavigationPortlet>
  <UIBreadCrumbPopupAvatarUploader>
